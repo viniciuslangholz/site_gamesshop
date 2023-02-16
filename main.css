@@ -8,18 +8,18 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
 }
 
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Code', sans-serif;
 }
 
 header {
-    padding: 16px 0;
-    background-color: #182C61;
-    color: #ECF0F1;
+    padding: 24px 0;
+    background-color: #1B1725;
+    color: #D0BCD5;
 }
 
 header nav li {
@@ -29,7 +29,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #ECF0F1;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -47,7 +47,8 @@ section .container {
 }
 
 .brands-list img {
-    height: 24px;
+    margin-top: 20px;
+    height: 54px;
 }
 
 .brands-list li {
@@ -68,7 +69,7 @@ section h2 {
 }
 
 section {
-    color: #182C61;
+    color: #303030;
 }
 
 section p {
@@ -120,22 +121,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #1B1725;
     color: #FFF;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314E9E;
+    background-color: #226CE0;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #1B1725;
 }
 
 footer {
-    background-color: #314E9E;
-    color: #ECF0F1;
-    padding: 16px 0;
+    background-color: #534B62;
+    color: #D0BCD5;
+    padding: 22px 0;
 }
